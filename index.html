@@ -1,193 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/013720433e.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/013720433e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div id="header">
-        <div class="container">
-           <nav>
-             <h3><span>D</span>harmendra.</h3>
-             <ul id="sidemenu">
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <i class="fas fa-times" onclick="closemenu()"></i>
-             </ul>
-             <i class="fas fa-bars" onclick="openmenu()"></i> 
-
-           </nav>
-           <div class="header-text">
-            <p>MERN Stack Developer</p>
-            <h1>Hi, I'm <span>Dharmendra</span> <br> Patel from India</h1>
-           </div>
+      <div class="container">
+        <nav>
+          <h3><span>D</span>harmendra.</h3>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>MERN Stack Developer</p>
+          <h1>
+            Hi, I'm <span>Dharmendra</span> <br />
+            Patel from India
+          </h1>
         </div>
+      </div>
     </div>
 
     <!-- --------------About---------->
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="/images/about-img.jpg" alt="about-img">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>I seek challenging opportunity to expand and
-                        utilize my learning skills and
-                        knowledge,Implement them for the success of
-                        the organisation. Adaptable to work in any
-                        environment as required
-                    </p>
-                    
-                    <div class="tab-title">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>UI/UX</span> <br> Designing Web Interfaces</li>
-                            <li><span>Front-end</span> <br> Front Designing/Development</li>
-                            <li><span>Back-end</span> <br> Web Developer</li>
-                            <li><span>PYTHON</span> <br> Software Developer</li>
-                            <li><span>MySQL</span> <br> Database</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>Fresher</span> <br> -------------<br> -------------</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>2023 <br>BACHLOR OF TECHNOLOGY</span> <br> Nri Institute of Informatin Science And Technology,BHOPAL
-                                  <br> Specialization: Computer Science and Engineering</li>
-                            <li><span>Shining Public Higher Secondary School, <br> Raisen(Dist.) Madhya Pradesh</span></li>
-                            <li><span>2019</span><br>HIGER SECONDARY EDUCATION   (MPBSE) </li>
-                            <li><span>2017</span><br>SECONDARY EDUCATION   (MPBSE)</li>
-                        </ul>
-                    </div>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="/images/about-img.jpg" alt="about-img" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I seek challenging opportunity to expand and utilize my learning
+              skills and knowledge,Implement them for the success of the
+              organisation. Adaptable to work in any environment as required
+            </p>
 
-                </div>
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
             </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>UI/UX</span> <br />
+                  Designing Web Interfaces
+                </li>
+                <li>
+                  <span>Front-end</span> <br />
+                  Front Designing/Development
+                </li>
+                <li>
+                  <span>Back-end</span> <br />
+                  Web Developer
+                </li>
+                <li>
+                  <span>PYTHON</span> <br />
+                  Software Developer
+                </li>
+                <li>
+                  <span>MySQL</span> <br />
+                  Database
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Fresher</span> <br />
+                  -------------<br />
+                  -------------
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2023 <br />BACHLOR OF TECHNOLOGY</span> <br />
+                  Nri Institute of Informatin Science And Technology,BHOPAL
+                  <br />
+                  Specialization: Computer Science and Engineering
+                </li>
+                <li>
+                  <span
+                    >Shining Public Higher Secondary School, <br />
+                    Raisen(Dist.) Madhya Pradesh</span
+                  >
+                </li>
+                <li>
+                  <span>2019</span><br />HIGER SECONDARY EDUCATION (MPBSE)
+                </li>
+                <li><span>2017</span><br />SECONDARY EDUCATION (MPBSE)</li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- -------------Services------ -->
     <div id="services">
-        <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
-                <div>
-                    <i class="fa-solid fa-crop"></i>
-                    <h1>UI/UX Design</h1>
-                    <p>Client-focused, creating user and customer experiences designed to have engaging user
-                         interfaces (UI) and deliver tangible business results, Appnovation helps brands navigate any
-                         and all facets of the digital landscape.</p>
-                    <a href="#">learn more</a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h1>Web Developer</h1>
-                    <p>We can create a variety of websites depending on your business needs.
-                        We make sure that the color schemes and layouts are trendy enough to be in line with your firm's outlook.
-                    </p>
-                    <a href="#">Learn more</a>
-                </div>
-                <div>
-                    <i class="fa-brands fa-python"></i>
-                    <h1>Software Developer</h1>
-                    <p>designs and builds computer programs that power mobile devices, desktop computers, and even cars. They not only identify user needs but also create new applications for any given market 
-                        while making improvements based on feedback from users.
-                    </p>
-                    <a href="#">Learn more</a>
-
-                </div>
-                <div>
-                    <i class="fa-solid fa-database"></i>
-                    <h1>MySQL</h1>
-                    <p>Computer databases typically store aggregations of data records or files that contain information,
-                        Databases are used for storing, maintaining and accessing any sort of data. They collect information on people, places or things.
-                    </p>
-                    <a href="#">Learn more</a>
-                </div>
-            </div>
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h1>UI/UX Design</h1>
+            <p>
+              Client-focused, creating user and customer experiences designed to
+              have engaging user interfaces (UI) and deliver tangible business
+              results, Appnovation helps brands navigate any and all facets of
+              the digital landscape.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h1>Web Developer</h1>
+            <p>
+              We can create a variety of websites depending on your business
+              needs. We make sure that the color schemes and layouts are trendy
+              enough to be in line with your firm's outlook.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-python"></i>
+            <h1>Software Developer</h1>
+            <p>
+              designs and builds computer programs that power mobile devices,
+              desktop computers, and even cars. They not only identify user
+              needs but also create new applications for any given market while
+              making improvements based on feedback from users.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-database"></i>
+            <h1>MySQL</h1>
+            <p>
+              Computer databases typically store aggregations of data records or
+              files that contain information, Databases are used for storing,
+              maintaining and accessing any sort of data. They collect
+              information on people, places or things.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
         </div>
+      </div>
     </div>
     <!-- ---------Portfolio------------>
     <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">My Work</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="/pojects/porject-1.jpg" alt="">
-                    <div class="layer">
-                        <h3>Pink Flare</h3>
-                        <p>Website animations are moving images that a web designer uses to capture visitors' attention and often direct them to take certain actions.</p>
-                        <a href="https://dharmendra917.github.io/animated-webpage/"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                
-                <div class="work">
-                    <img src="/pojects/porject-2.png" alt="">
-                    <div  class="layer">
-                        <h3>Nike-Shoes Landing Page</h3>
-                        <p>Nike Shoes Landing Page. Inspirational designs, illustrations, and graphic elements from the best design</p>
-                        <a href="https://dharmendra917.github.io/NikeShoes-landing_page/"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="/pojects/project-3.jpg" alt="">
-                    <div class="layer">
-                        <h3>Music Player</h3>
-                        <p>.</p>
-                        <a href="https://dharmendra917.github.io/MusicPlayer-clone/"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="/pojects/porject-1.jpg" alt="porject-1" />
+            <div class="layer">
+              <h3>Pink Flare</h3>
+              <p>
+                Website animations are moving images that a web designer uses to
+                capture visitors' attention and often direct them to take
+                certain actions.
+              </p>
+              <a href="https://dharmendra917.github.io/animated-webpage/"
+                ><i class="fa-sharp fa-solid fa-up-right-from-square"></i
+              ></a>
             </div>
-            <a href="#" class="btn">See more</a>
+          </div>
+
+          <div class="work">
+            <img src="/pojects/porject-2.png" alt="porject-2" />
+            <div class="layer">
+              <h3>Nike-Shoes Landing Page</h3>
+              <p>
+                Nike Shoes Landing Page. Inspirational designs, illustrations,
+                and graphic elements from the best design
+              </p>
+              <a href="https://dharmendra917.github.io/NikeShoes-landing_page/"
+                ><i class="fa-sharp fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/pojects/project-3.jpg" alt="project-3" />
+            <div class="layer">
+              <h3>Music Player</h3>
+              <p>.</p>
+              <a href="https://dharmendra917.github.io/MusicPlayer-clone/"
+                ><i class="fa-sharp fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
         </div>
+        <a href="#" class="btn">See more</a>
+      </div>
     </div>
     <!-- ----------Contact----------->
     <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1>Contact Me</h1>
-                    <p><i class="fa-solid fa-envelope"></i> <a href="mailto:dp903604@gmail.com">dp903604@gmail.com</a></p>
-                    <p><i class="fa-solid fa-mobile"></i><a href="tel:+919179209361">9179209361</a></p>
-                    <div class="social-icons">
-                        <a href="https://github.com/Dharmendra917"><i class="fa-brands fa-github"></i></a>
-                        <a href="www.linkedin.com/in/dharmendra-patel-2b0383202"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://www.facebook.com/profile.php?id=100009803107833&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://www.instagram.com/_dharmendra2000/"><i class="fa-brands fa-square-instagram"></i></a>
-                    </div>
-                    <a href="images/Resume.pdf" class="btn btn2" download>Download CV</a>
-                </div>
-                <div class="contact-right">
-                    <form name="submit-to-google-sheet">
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="Email" placeholder="Your Email" required>
-                        <textarea name="Message"   rows="6" placeholder="Your Message" required ></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
-                    <span id="msg"></span>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1>Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:dp903604@gmail.com">dp903604@gmail.com</a>
+            </p>
+            <p>
+              <i class="fa-solid fa-mobile"></i
+              ><a href="tel:+919179209361">9179209361</a>
+            </p>
+            <div class="social-icons">
+              <a href="https://github.com/Dharmendra917"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="www.linkedin.com/in/dharmendra-patel-2b0383202"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/profile.php?id=100009803107833&mibextid=ZbWKwL"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/_dharmendra2000/"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
             </div>
+            <a href="images/Resume.pdf" class="btn btn2" download
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
         </div>
+      </div>
     </div>
 
-   
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js" integrity="sha512-A64Nik4Ql7/W/PJk2RNOmVyC/Chobn5TY08CiKEX50Sdw+33WTOpPJ/63bfWPl0hxiRv1trPs5prKO8CpA7VNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+      integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"
+      integrity="sha512-A64Nik4Ql7/W/PJk2RNOmVyC/Chobn5TY08CiKEX50Sdw+33WTOpPJ/63bfWPl0hxiRv1trPs5prKO8CpA7VNQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="script.js"></script>
-
-</body>
+  </body>
 </html>
